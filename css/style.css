@@ -2,6 +2,6 @@
     height: 50px;
 }
 
-#features img{
+#features img, #how-it-works img{
     max-height: 200px;
 }
