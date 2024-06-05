@@ -5,3 +5,21 @@
 #features img, #how-it-works img{
     max-height: 200px;
 }
+
+#hero{
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+#hero-svg-bg{
+    width: 100%;
+    height: 100vh;
+    aspect-ratio: initial;
+    object-fit: cover;
+    position: absolute;
+}
+
+#hero .container{
+    padding-top: 10vh;
+}
